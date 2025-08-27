@@ -1,0 +1,68 @@
+h1{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:cadetblue;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: beige;
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+}
+
+.plan h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.plan button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.infor {
+    text-align: center;
+}
+
+.infor p {
+    margin-bottom: 10px;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:rgb(2, 50, 50);
+}
+a:active{
+    color:brown;
+}
