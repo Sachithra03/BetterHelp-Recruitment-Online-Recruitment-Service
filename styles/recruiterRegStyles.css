@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+.body{
+    /*max-height: 100%;*/
+    width: 100%;
+    min-height: 170vh;
+    background-image: linear-gradient(rgba(109, 106, 106, 0.288),rgba(148, 148, 148, 0.58)),url("../images/backgroundimage.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    background-position: center;
+
+}
+/* Outer box of form */
+.form-box {
+    position:absolute;
+    background-color: rgba(200, 200, 196, 0.474);
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 100px;
+}
+
+.form-box h1{
+    margin: 3%;
+}
+
+.form-box h2{
+    color:rgba(123, 4, 4, 0.836);
+}
+
+/* form */
+.recAccount{
+    font-size:25px;
+    padding: 10px;
+}
+
+#content{
+    text-align: center;
+    border:1px solid rgba(196, 192, 187, 0.723);
+    padding: 2% 13%;
+    border-radius: 20px;
+    
+}
+#content{
+    background-color: rgba(255, 255, 255, 0.583);
+}
+
+.phoneNO{
+    text-align: center;
+    border:1px solid rgba(196, 192, 187, 0.723);
+    padding: 2% 13%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.583);
+}
+
+/* clear and create new account btton */
+.clear-info, .submit {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 20px 10px; 
+    padding: 20px 50px; 
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.clear-info{
+    background-color: transparent;
+}
+.clear-info:hover{
+    border: rgba(144, 155, 205, 0.717);
+    background-color: rgba(144, 155, 205, 0.717);
+    transition: 1s;
+    cursor: pointer;
+}
+.submit {
+    background-color: rgb(39, 87, 220);
+    border-color:rgb(39, 87, 220);
+}
+.submit:hover{
+    background-color:blue;
+    transition: 1s;
+    cursor: pointer;
+}
+p{
+    font-size: 17px;
+}

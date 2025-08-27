@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* TopBar */
+
+.topbar{
+    text-align:right;
+    min-height: 4vh;
+    background-color: rgba(218, 229, 233, 0.742);
+    border-radius: 40px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+ul li h1{
+    margin-right: 500px;
+    font-size: 40px;
+    font-family:fantasy
+}
+
+ul li {
+    padding: 20px 150px 14px 10px;
+    justify-content: space-between;
+    display:inline-block;  
+}
+.price-cl a{
+    color: black;
+    font-size: 25px;
+}
+.price-cl a:hover{
+    color:#f44336;
+    transition: 0.5s;
+}
+ul li a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+/* Profile & Log in button */
+.top-btn{
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 1px;
+    background-color: rgb(15, 48, 66);
+    text-decoration: none;
+    padding:  15px 40px;
+    border: 1px solid white;
+    font-size: 13px;
+}
+
+.top-btn:hover{
+    border: 1px solid rgb(178, 52, 21);
+    background: rgb(170, 39, 6);
+    transition: 0.5s;
+}
+#b-id{
+    margin-right: -195px;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:150px;
+}
+.nav-links{
+    flex: 1;
+    text-align:right;
+    
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding: 45px 15px 0px 40px;
+    position: relative;
+    margin-right: 10px;
+}
+.nav-links ul li a {
+    color:white;
+    text-decoration:none;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-links ul li ::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+    width:100%;
+}
+
+
+.profile-back{
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(109, 106, 106, 0.632),rgba(148, 148, 148, 0.458)),url("../images/profileBack3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.details{
+    text-align: left;
+    font-size: 30px;
+    position:absolute;
+    color: white;
+    height:60%;
+    width: 30%;
+    margin: 20px 0 20px;
+    padding: 4%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(30, 30, 34, 0.469);
+    border-radius: 10%;
+}
+.details h1{
+    text-align: center;
+    color:bisque;
+}
+.up-btn{
+    position:absolute;
+    border-radius: 10px;
+    padding: 8px;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+
+}
+#update-btn{
+    background-color: rgba(96, 143, 253, 0.763);  
+    left:30%;          
+}
+#update-btn:hover{
+    background-color: rgba(40, 129, 230, 0.796);
+    border-color: rgba(40, 129, 230, 0.796);
+}
+
+#delete-btn{
+    background-color: rgba(221, 45, 45, 0.723);
+}
+#delete-btn:hover{
+    background-color: rgba(197, 20, 20, 0.796);
+    border-color: rgba(197, 20, 20, 0.796);
+}
+
